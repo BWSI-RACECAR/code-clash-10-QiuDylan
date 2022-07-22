@@ -68,7 +68,7 @@ class Solution:
 
         final_str = ""
         for l in range(len(alit)):
-            final_str = final_str + "{letter} = {number},".format(letter = alit[l],number =let_count[l])
+            final_str = final_str + "{letter} = {number}, ".format(letter = alit[l],number =let_count[l])
         
 
         return final_str + "{rhymes} rhyming words".format(rhymes = rhyme_count)
